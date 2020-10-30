@@ -1,0 +1,14 @@
+
+<div class="loginmodal-container mt-5">
+  <form class="form-group" [formGroup]="authForm" (ngSubmit)="onSubmit()" >
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input type="text" name="user" placeholder="Username" required class="form-control" formControlName="userId">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input required type="password" name="pass" placeholder="Password" formControlName="password">
+    </div>
+    <input type="submit" mat-input name="login" color="primary" class="login loginmodal-submit" value="Login">
+  </form>
+</div>

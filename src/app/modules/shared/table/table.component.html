@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Skill</th>
+    <th scope="col">Experience</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor = "let row of data; let i = index">
+    <th scope="row">{{i+1}}</th>
+    <td>{{row.skill}}</td>
+    <td>{{row.experience}}</td>
+  </tr>
+  </tbody>
+</table>

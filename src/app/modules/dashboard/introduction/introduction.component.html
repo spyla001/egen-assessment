@@ -1,0 +1,66 @@
+  <div class="jumbotron">
+    <h1 class="display-4">Hello, There!</h1>
+    <p class="lead">I'm Sanyasi Naidu, full-stack developer in U.S. bank.</p>
+  </div>
+  <div class="container">
+    <section class="mb-5" id="introduction">
+          <header>Introduction</header>
+          <article>
+            <p>
+              I'm sanyasi Naidu Pyla working as Full-Stack Developer in U.S. Bank. I've graduated from University Of North Carolina At Charlotte in December 2019. When i started my carrier as web developer i was terrified and never thought i would survive  this long, in this field.
+              But here I'm,  gained 4+ experience realised patience in the key factor to survive. i Wish to work with highly experienced developers to be better in this field
+            </p>
+          </article>
+    </section>
+    <section class="mb-5"  id="current">
+      <div class="row">
+        <div class="col-7">
+          <header>Current Experience</header>
+          <article>
+            <p>
+              I'm  working as Full-Stack Developer in U.S. Bank. I'm working on enhancing the console asp.net application and Developing UI for the same.
+              This console application takes care of the Scheduled jobs. On UI the configurations required to run this application can be updated. Apart from that
+              it tracks failed jobs, rerun failed jobs, view errors, comments etc.
+            </p>
+          </article>
+        </div>
+        <div class="col-5">
+          <app-pie [pieChartData]="experienceData" [pieChartLabels]="experienceLabels"></app-pie>
+        </div>
+      </div>
+    </section>
+    <section class="mb-5"  id="experience">
+      <div class="row">
+          <header>How many years of experience you have on the technologies you  worked on?</header>
+        <div class="col-8">
+          <app-bar [barChartData]="chartSkills" [barChartLabels]="skillLabels"></app-bar>
+        </div>
+        <div class="col-4">
+        <article>
+            <p>
+              <app-table [data]="skills"></app-table>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="mb-5"  id="">
+      <header>How did you end up here?</header>
+      <div class="row">
+        <div class="col-7">
+          <article>
+            <p>
+              I would say it's because of schooling I'm here. When I'm doing Engineering, at some point I felt like I was stuck in assignments loop. I've no idea what I'm doing and where I'll end up in coming years.
+              My curiosity is dead and my knowledge has reached the saturation point (As you know you can't be fed more that you eat).
+            </p>
+            <p>
+              Then I was introduced to Web Development by my WT(web technologies) professor. I really like how things work in this new found interest. Progressively i gained knowledge and decided to stick to this field.
+            </p>
+          </article>
+        </div>
+        <div class="col-5">
+          <app-line></app-line>
+        </div>
+      </div>
+    </section>
+  </div>

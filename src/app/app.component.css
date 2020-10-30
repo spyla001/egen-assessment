@@ -1,0 +1,29 @@
+.out-container{
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.bg-light{
+  background-color: #4d90fe !important;
+}
+
+.bg-light .navbar-brand {
+  font-family: "Roboto Slab", serif;
+  text-transform : uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.title, .title:hover{
+  font-family: "Roboto Slab", serif;
+  text-transform : uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
